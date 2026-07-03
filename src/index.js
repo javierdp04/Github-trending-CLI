@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
-import { program } from "commander";
-import list from "./commands/list.js";
+const {program} = require("commander");
+const list = require("./commands/list");
 
 program
     .command('list')

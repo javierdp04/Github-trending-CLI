@@ -15,4 +15,6 @@ const durationToDate = (duration) => {
     return date.toISOString().split("T")[0]
 }
 
-export { durationToDate }
+module.exports = {
+    durationToDate,
+}

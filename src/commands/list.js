@@ -1,4 +1,4 @@
-import { durationToDate } from "./utils.js";
+const {durationToDate} = require("./utils.js");
 
 const list = async (options) => {
     try{
@@ -8,6 +8,8 @@ const list = async (options) => {
         result.forEach(element => {
             console.log(element);
         });
+
+        return result;
     }catch(err){
         console.log(err);
         process.exit(1);
@@ -41,4 +43,4 @@ const extractUsefullMetadata = (response) => {
     }));
 }
 
-export default list;
+module.exports = list;
