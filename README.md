@@ -1,7 +1,7 @@
 # CLI to get GitHub trending repos
 
 Command-line interface to get GitHub trending repositories.
-This project idea is from [roadmap.sh](https://www.roadmap.sh).
+This project idea is from [roadmap.sh](https://roadmap.sh/projects/github-trending-cli).
 
 ## Features
 
